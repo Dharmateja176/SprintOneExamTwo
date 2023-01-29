@@ -24,9 +24,9 @@ public class Cordinates {
             }else if (xc < 0 && yc < 0) {
                 pallava.add(namePers[i]);
             }else if (xc > 0 && yc < 0) {
-                chera.add(namePers[i]);
-            }else{
                 pandya.add(namePers[i]);
+            }else{
+                chera.add(namePers[i]);
             }
         }
         System.out.println("chola");
